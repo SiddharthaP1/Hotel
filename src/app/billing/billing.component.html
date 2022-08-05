@@ -25,7 +25,7 @@
                 <P>AC Room Only</P>
             </div>
             <div class="rno"><i class="fa-solid fa-pencil"></i> <i class="fa-solid fa-xmark"></i>  {{se}}</div>
-            <div class="rinr">INR {{semi}}</div>
+            <div class="rinr">INR {{se*semi}}</div>
         </div>
         <div class="clear"></div>
         <div id="simple">
@@ -34,7 +34,7 @@
                 <P>Non Ac Room With Breakfast</P>
             </div>
             <div class="rno"><i class="fa-solid fa-pencil"></i> <i class="fa-solid fa-xmark"></i> {{si}}</div>
-            <div class="rinr">INR {{simple}}</div>
+            <div class="rinr">INR {{si*simple}}</div>
         </div>
         <div class="clear"></div>
         <div id="deluxe">
@@ -43,14 +43,14 @@
                 <P>AC Room With Breakfast</P>
             </div>
             <div class="rno"><i class="fa-solid fa-pencil"></i> <i class="fa-solid fa-xmark"></i> {{de}}</div>
-            <div class="rinr">INR {{deluxe}}</div>
+            <div class="rinr">INR {{de*deluxe}}</div>
         </div>
     </div>
     <div class="clear"></div>
     <hr>
     <div class="totBill">
         <h1 class="pay">Total Payble</h1>
-        <h1 class="inr">INR {{bill}}</h1>
+        <h1 class="inr">INR {{semi*se+simple*si+deluxe*de}}</h1>
         <div class="clear"></div>
         <p class="det">VIEW ALL DETAILS</p>
         <button class="proceed" (click)="total()">Proceed to Payment</button>

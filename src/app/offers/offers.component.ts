@@ -1,4 +1,4 @@
-import { Component, OnInit, Output } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { UserService } from '../user.service';
 
 @Component({
@@ -7,8 +7,10 @@ import { UserService } from '../user.service';
   styleUrls: ['./offers.component.css']
 })
 export class OffersComponent implements OnInit {
-
-  constructor(private usersService:UserService) { }
+ele1:string='';
+  constructor(private usersService:UserService) { 
+    this.usersService.cast4.subscribe(val1=>this.ele1=val1);
+  }
   value1:number = 0;
   value2:number = 0;
   value3:number = 0;

@@ -35,4 +35,9 @@
             }
             .promo img{
                 width: 18px;
+                float: left;
+            }
+            .coup{
+                float: left;
+                margin-right: 3px;
             }

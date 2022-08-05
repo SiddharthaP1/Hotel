@@ -18,25 +18,14 @@ de:number=0;
 
   constructor(private usersService: UserService) {
     this.usersService.cast.subscribe(val1=>this.se=val1);
-    this.usersService.cast.subscribe(val=>this.semi=val);
     this.usersService.cast2.subscribe(val2=>this.si=val2);
     this.usersService.cast3.subscribe(val3=>this.de=val3);
-    
-    
    }
 
   
-  ngOnInit(): void {
-    
-  }
+  ngOnInit(): void {}
   
-total(){
-  //this.semi=this.semi*this.se;
-    this.simple=this.simple*this.si;
-    this.deluxe=this.deluxe*this.de;
-    this.bill=this.semi+this.simple+this.deluxe;
-  
-}
+total(){}
 
 
 

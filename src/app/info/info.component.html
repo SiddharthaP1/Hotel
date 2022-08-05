@@ -4,9 +4,13 @@
     </div>
     <div class="detail">
         <p class="name">Lotus Suite</p>
-        <p class="facilities">TV | Air Conditioning | Wi-fi | Tea-Coffee | Magzine... <span class="view">VEW MORE</span></p>
+        <p class="facilities"><span>{{detail}}</span> <span (click)="viewDetail()" class="view">VEW MORE</span></p>
         <i class="fa-solid fa-restroom people"></i> 1
         <i class="fa-solid fa-bed bed"></i> King Size
-        <p class="promo"><img src="../../assets/index.png">SUMMERS25, PROMO10</p>
+        <div class="promo">
+            <img src="../../assets/index.png">
+            <p class="coup" (click)="changeCoupon1()">SUMMER25,</p>
+            <p class="coup" (click)="changeCoupon2()">PROMO10</p>
+        </div>
     </div>
 </div>
