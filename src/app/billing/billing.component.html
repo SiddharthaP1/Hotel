@@ -1,0 +1,62 @@
+<div class="parent">
+    <div class="title-main">
+        <p class="title">Tarrif Details</p>
+    </div>
+    <hr>
+    <div>
+        <p class="room">Rooms</p> <p class="rm">1</p>
+        <p class="adult">Adults</p> <p class="adt">2</p>
+    </div>
+    <div class="clear"></div>
+    <hr>
+    <div>
+        <p class="checkIn">Check-In : 2:00PM</p>
+        <p class="checkOut">Check-out : 12:00 PM</p>
+        <div class="clear"></div>
+        <h2 class="in"> 23 Sept 2017, Wed</h2>
+        <h2 class="out"> 23 Sept 2017, Wed</h2>
+        <div class="clear"></div>
+    </div>
+    <hr>
+    <div>
+        <div id="semi">
+            <div class="rtype">
+                <p class="roomt">SEMI DELUXE</p>
+                <P>AC Room Only</P>
+            </div>
+            <div class="rno"><i class="fa-solid fa-pencil"></i> <i class="fa-solid fa-xmark"></i>  {{se}}</div>
+            <div class="rinr">INR {{semi}}</div>
+        </div>
+        <div class="clear"></div>
+        <div id="simple">
+            <div class="rtype">
+                <p class="roomt">SIMPLE</p>
+                <P>Non Ac Room With Breakfast</P>
+            </div>
+            <div class="rno"><i class="fa-solid fa-pencil"></i> <i class="fa-solid fa-xmark"></i> {{si}}</div>
+            <div class="rinr">INR {{simple}}</div>
+        </div>
+        <div class="clear"></div>
+        <div id="deluxe">
+            <div class="rtype">
+                <p class="roomt">DELUXE</p>
+                <P>AC Room With Breakfast</P>
+            </div>
+            <div class="rno"><i class="fa-solid fa-pencil"></i> <i class="fa-solid fa-xmark"></i> {{de}}</div>
+            <div class="rinr">INR {{deluxe}}</div>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <hr>
+    <div class="totBill">
+        <h1 class="pay">Total Payble</h1>
+        <h1 class="inr">INR {{bill}}</h1>
+        <div class="clear"></div>
+        <p class="det">VIEW ALL DETAILS</p>
+        <button class="proceed" (click)="total()">Proceed to Payment</button>
+    </div>
+    <div class="terms">
+        <p>By preceeding you agree to the <span class="colour">Hotel Booking Policy</span>, <span class="colour">Hotel Cancellation Policy</span> and <span class="colour">Terms and Condition</span> of Ganga Kinare
+        </p>
+    </div>
+</div>

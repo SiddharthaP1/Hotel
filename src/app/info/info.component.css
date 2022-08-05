@@ -1,0 +1,38 @@
+.info-parent{
+    border: 1px solid grey;
+    height: 170px;
+}
+    .pic{
+            float: left;
+        }
+            .pic img{
+                width: 300px;
+            }
+
+
+        .detail{
+            float: left;
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+            .name{
+                font-family: Agency FB;
+                font-size: 30px;
+            }
+            .facilities{
+                color: grey;
+            }
+            .bed{
+                margin-left: 60px;
+            }
+            .view{
+                color: green
+            }
+            .promo {
+                color: magenta;
+                margin-top: 50px;
+                
+            }
+            .promo img{
+                width: 18px;
+            }

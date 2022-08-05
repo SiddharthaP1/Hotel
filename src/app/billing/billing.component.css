@@ -1,0 +1,112 @@
+.clear{
+    clear: both;
+}
+.parent{
+    width: 400px;
+    padding: 10px 30px;
+    border: 1px solid #999966;
+}
+
+
+    .title-main{
+        
+
+    }
+        .title{
+            font-family: Agency FB;
+            font-weight: none;
+            font-size: 30px;
+        }
+    .room{
+        float: left;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    .rm{
+        float: left;
+            color: grey;
+            margin-left: 5px;
+    }
+    .adult{
+        float: left;
+        margin-left: 50px;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    .adt{
+        float: left;
+            color: grey;
+            margin-left: 5px;
+    }
+
+    .checkIn{
+        float: left;
+        color: grey;
+    }
+    .checkOut{
+        float: right;
+        color: grey;
+    }
+    .in{
+        float: left;
+    }
+    .out{
+        float: right;
+    }
+
+    .rtype{
+        width: 50%;
+        float: left;
+    }
+        .roomt{
+            font-family: Agency FB;
+            font-size: 25px;
+        }
+    .rno{
+        width: 20%;
+        float: left;
+    }
+        .rno i{
+            margin-right: 5px;
+        }
+    .rinr{
+        width: 30%;
+        float: left;
+        font-family: Agency FB;
+        font-size: 25px;
+    }
+
+
+    .totBill{
+    }
+
+        .pay{
+            float: left;
+        }
+
+        .inr{
+            float: right;
+        }
+        .det{
+            color: green;
+            
+        }
+        .proceed{
+            width: 340px;
+            height: 50px;
+            margin:0 30px;
+            border-radius: 0;
+            font-size: 20px;
+            color: #999966
+        }
+        .terms{
+            width: 340px;
+            padding:0 30px;
+        }
+        .colour{
+            color: #66ccff
+        }
+
+        .colour:hover{
+            cursor: pointer;
+        }

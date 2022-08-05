@@ -1,0 +1,77 @@
+.clear{
+    clear: both;
+}
+.type{
+    border: 1px solid grey;
+    height: 60px;
+    margin: 0;
+}
+    .offer-title{
+        width: 50%;
+        float: left;
+    }
+        .heading{
+            font-size: 25px;
+            font-family: Agency FB;
+            margin-bottom: 0;
+            margin-top: 10px;
+            
+        }
+
+        .vdetail{
+            color: green;
+        }
+        .vdetail:hover{
+            cursor: pointer;
+        }
+
+
+    .btn{
+        width: 25%;
+        float: left;
+    }
+        .btn p{
+            font-size: 10px;
+        }
+        .change{
+            background-color: grey;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            margin:9px 10px 0 10px;
+        }
+        .coupon{
+            color: magenta;
+            text-align: center;
+        }
+
+    .price{
+        width: 25%;
+        float: left;
+    }
+        .strike{
+            font-size: 10px;
+            color: grey;
+            margin-bottom: 0;
+            margin-top: 0;
+        }
+        .prc{
+            font-size: 25px;
+            font-family: Agency FB;
+            margin-bottom: 0;
+        }
+        .non-ref{
+            font-size: 10px;
+            color: grey;
+            margin-bottom: 0;
+        }
+    
+
+    .view-all{
+        color: green;
+        text-align: center;
+        margin-top: 0;
+    }
+    .view-all:hover{
+        cursor: pointer;
+    }
